@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=8E742ABBD40B4340BB997FE405904EB1/AbsolutePath/@EntryValue">C:\Users\Nikita_Kobzev\Desktop\DropSchema.SqlServer\DownSchema.sln.DotSettings</s:String>
+	<s:String x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=8E742ABBD40B4340BB997FE405904EB1/RelativePath/@EntryValue">..\DownSchema.sln.DotSettings</s:String>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/FileInjectedLayer/=8E742ABBD40B4340BB997FE405904EB1/@KeyIndexDefined">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File8E742ABBD40B4340BB997FE405904EB1/@KeyIndexDefined">True</s:Boolean>
+	<s:Double x:Key="/Default/Environment/InjectedLayers/InjectedLayerCustomization/=File8E742ABBD40B4340BB997FE405904EB1/RelativePriority/@EntryValue">1</s:Double></wpf:ResourceDictionary>

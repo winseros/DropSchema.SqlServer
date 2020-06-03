@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>DropSchema.SqlServer</RootNamespace>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\100_DropTableForeignKeys.sql" />
+    <None Remove="Scripts\101_DropTableForeignKeys.sql" />
+    <None Remove="Scripts\200_DropSchemaFunctions.sql" />
+    <None Remove="Scripts\300_DropSchemaProcedures.sql" />
+    <None Remove="Scripts\400_DropSchemaViews.sql" />
+    <None Remove="Scripts\500_DropSchemaTables.sql" />
+    <None Remove="Scripts\600_ServiceProcedures.sql" />
+    <EmbeddedResource Include="Scripts\100_DropTableForeignKeys.sql" />
+    <EmbeddedResource Include="Scripts\101_DropTableForeignKeys.sql" />
+    <EmbeddedResource Include="Scripts\200_DropSchemaFunctions.sql" />
+    <EmbeddedResource Include="Scripts\300_DropSchemaProcedures.sql" />
+    <EmbeddedResource Include="Scripts\400_DropSchemaViews.sql" />
+    <EmbeddedResource Include="Scripts\500_DropSchemaTables.sql" />
+    <EmbeddedResource Include="Scripts\600_ServiceProcedures.sql" />
+  </ItemGroup>
+
+</Project>
