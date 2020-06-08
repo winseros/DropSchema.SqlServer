@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworks>netstandard2.1;net45</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
     <RootNamespace>DropSchema.SqlServer</RootNamespace>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -23,5 +24,25 @@
     <EmbeddedResource Include="Scripts\500_DropSchemaTables.sql" />
     <EmbeddedResource Include="Scripts\600_ServiceProcedures.sql" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE" Pack="true" PackagePath="LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <MinClientVersion>2.12</MinClientVersion>
+    <Title>DropSchema.SqlServer</Title>
+    <Description>The library goes through the target schema of the database and wipes its contents. Helps when writing tests for database-related code.</Description>
+    <Summary>The library goes through the target schema of the database and wipes its contents. Helps when writing tests for database-related code.</Summary>
+    <Version>1.0.0</Version>
+    <PackageTags>SqlServer;Database;TDD;Test</PackageTags>
+    <PackageProjectUrl>https://github.com/winseros/DropSchema.SqlServer</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl> 
+    <Authors>Nikita Kobzev</Authors>
+    <Copyright>2020 Nikita Kobzev</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
 
 </Project>

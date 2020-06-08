@@ -5,7 +5,7 @@ using Xunit;
 
 namespace DropSchema.SqlServer.Test
 {
-    public class DropSchemaTest
+    public class DropOperationTest
     {
         [Fact]
         public void Test_Run_Cleans_Schema()
@@ -15,7 +15,7 @@ namespace DropSchema.SqlServer.Test
             using var conn = new SqlConnection(cs);
             using var scope = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled);
             conn.Open();
-            new DropSchema(conn).Run("dbo");
+            new DropOperation(conn).Run("dbo");
         }
 
         private static string GetDbConnectionString()

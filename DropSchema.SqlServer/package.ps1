@@ -1,0 +1,1 @@
+dotnet pack .\DropSchema.SqlServer.csproj -c Release

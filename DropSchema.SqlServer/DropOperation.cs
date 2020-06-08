@@ -3,11 +3,11 @@ using System.Data.Common;
 
 namespace DropSchema.SqlServer
 {
-    public class DropSchema 
+    public class DropOperation 
     {
         private readonly DbConnection _conn;
 
-        public DropSchema(DbConnection conn)
+        public DropOperation(DbConnection conn)
         {
             _conn = conn ?? throw new ArgumentNullException(nameof(conn));
         }
