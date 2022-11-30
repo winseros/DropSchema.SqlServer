@@ -6,6 +6,7 @@
     <RootNamespace>DropSchema.SqlServer</RootNamespace>
     <Nullable>enable</Nullable>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <PackageVersion>1.1.0</PackageVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,14 +16,16 @@
     <None Remove="Scripts\300_DropSchemaProcedures.sql" />
     <None Remove="Scripts\400_DropSchemaViews.sql" />
     <None Remove="Scripts\500_DropSchemaTables.sql" />
-    <None Remove="Scripts\600_ServiceProcedures.sql" />
+    <None Remove="Scripts\600_DropSchemaTypes.sql" />
+    <None Remove="Scripts\700_ServiceProcedures.sql" />
     <EmbeddedResource Include="Scripts\100_DropTableForeignKeys.sql" />
     <EmbeddedResource Include="Scripts\101_DropTableForeignKeys.sql" />
     <EmbeddedResource Include="Scripts\200_DropSchemaFunctions.sql" />
     <EmbeddedResource Include="Scripts\300_DropSchemaProcedures.sql" />
     <EmbeddedResource Include="Scripts\400_DropSchemaViews.sql" />
     <EmbeddedResource Include="Scripts\500_DropSchemaTables.sql" />
-    <EmbeddedResource Include="Scripts\600_ServiceProcedures.sql" />
+    <EmbeddedResource Include="Scripts\600_DropSchemaTypes.sql" />
+    <EmbeddedResource Include="Scripts\700_ServiceProcedures.sql" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,7 +44,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PublishRepositoryUrl>true</PublishRepositoryUrl> 
     <Authors>Nikita Kobzev</Authors>
-    <Copyright>2020 Nikita Kobzev</Copyright>
+    <Copyright>2022 Nikita Kobzev</Copyright>
     <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 
